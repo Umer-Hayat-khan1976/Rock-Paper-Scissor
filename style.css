@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title {
+    font-weight: bold;
+    color : white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(18, 18, 110);
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    font-size: 3vmin;
+    height : 10rem;
+   line-height: 2rem;
+}
+
+.choice {
+    height : 165px;
+    width: 165px;
+    border-width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.choice:hover{
+    background-color: rgb(31, 29, 134);
+    box-shadow: 2rem;
+    cursor: pointer;
+   
+}
+
+img{
+    height : 150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap : 3rem;
+
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#user-score,#comp-score {
+    font-size: 4rem;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(58, 122, 206);
+    
+}
+
+.msg-container {
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#msg {
+    background-color: rgb(18, 18, 110);
+    display:inline;
+    font-size: 2rem;
+    color :white;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
